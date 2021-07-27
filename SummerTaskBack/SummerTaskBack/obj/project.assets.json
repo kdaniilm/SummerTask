@@ -75,6 +75,29 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BLL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
       }
     }
   },
@@ -185,10 +208,21 @@
         "swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "BLL/1.0.0": {
+      "type": "project",
+      "path": "../BLL/BLL.csproj",
+      "msbuildProject": "../BLL/BLL.csproj"
+    },
+    "DAL/1.0.0": {
+      "type": "project",
+      "path": "../DAL/DAL.csproj",
+      "msbuildProject": "../DAL/DAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "BLL >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -200,11 +234,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\SummerTask\\SummerTaskBack\\SummerTaskBack\\SummerTaskBack.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\SummerTask\\SummerTask\\SummerTaskBack\\SummerTaskBack\\SummerTaskBack.csproj",
       "projectName": "SummerTaskBack",
-      "projectPath": "C:\\Users\\User\\Documents\\GitHub\\SummerTask\\SummerTaskBack\\SummerTaskBack\\SummerTaskBack.csproj",
+      "projectPath": "C:\\Users\\User\\Documents\\GitHub\\SummerTask\\SummerTask\\SummerTaskBack\\SummerTaskBack\\SummerTaskBack.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Documents\\GitHub\\SummerTask\\SummerTaskBack\\SummerTaskBack\\obj\\",
+      "outputPath": "C:\\Users\\User\\Documents\\GitHub\\SummerTask\\SummerTask\\SummerTaskBack\\SummerTaskBack\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -226,7 +260,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\User\\Documents\\GitHub\\SummerTask\\SummerTask\\SummerTaskBack\\BLL\\BLL.csproj": {
+              "projectPath": "C:\\Users\\User\\Documents\\GitHub\\SummerTask\\SummerTask\\SummerTaskBack\\BLL\\BLL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

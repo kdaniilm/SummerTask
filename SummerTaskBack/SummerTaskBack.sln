@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SummerTaskBack", "SummerTaskBack\SummerTaskBack.csproj", "{6444CE0F-A872-41D5-BE01-AD891DCC2FA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SummerTaskBack", "SummerTaskBack\SummerTaskBack.csproj", "{6444CE0F-A872-41D5-BE01-AD891DCC2FA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{D3D987B3-5E3C-4698-97BD-00802F357DAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{03E72BCC-B00C-4DF4-A910-8A377D368FC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{6444CE0F-A872-41D5-BE01-AD891DCC2FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6444CE0F-A872-41D5-BE01-AD891DCC2FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6444CE0F-A872-41D5-BE01-AD891DCC2FA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3D987B3-5E3C-4698-97BD-00802F357DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3D987B3-5E3C-4698-97BD-00802F357DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3D987B3-5E3C-4698-97BD-00802F357DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3D987B3-5E3C-4698-97BD-00802F357DAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03E72BCC-B00C-4DF4-A910-8A377D368FC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03E72BCC-B00C-4DF4-A910-8A377D368FC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03E72BCC-B00C-4DF4-A910-8A377D368FC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03E72BCC-B00C-4DF4-A910-8A377D368FC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

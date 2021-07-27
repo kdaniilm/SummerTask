@@ -1,0 +1,13 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+*.config binary
+*.browserslistrc binary
+*.editorconfig binary
+*.json binary
+*.js binary
+*.ts binary
+*.html binary
+*.spec.ts binary
+*.css binary
+*.gitignore binary
+*.md binary
